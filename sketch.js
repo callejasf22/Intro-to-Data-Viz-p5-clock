@@ -1,6 +1,6 @@
 let track = []
 
-// creates a smooth curve between two points using the Catmull-Rom spline
+// computes a point on a Catmull-Rom spline
 function getPoint(t) {
     let trackLength = track.length;
     let i = Math.floor(t) % trackLength;
